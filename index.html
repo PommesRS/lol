@@ -27,6 +27,11 @@
                 "Helvetica Neue",sans-serif;                
         }
 
+        div{
+            background-color: white;
+            margin-right: 350px;
+        }
+
         .head{
             background-color: #23282d;
             margin: -8px;
@@ -40,6 +45,7 @@
             font-size: 13px;
             font-weight: 400;
             display: inline-block;
+            cursor: pointer;
         }
 
         .headnav:hover{
@@ -51,6 +57,7 @@
             float: right;
             font-size: 13px;
             font-weight: 400;
+            cursor: pointer;
         }
 
         .wellcome:hover{
@@ -156,11 +163,11 @@
             background-color: white;
             margin-left: 350px;
             margin-right: 350px;
-            margin-top: -15px;
+            margin-top: -16px;
         }
         
         .kantctn{
-            padding: 10px 200px 87px 10px;
+            padding: 10px 200px 68px 10px;
             background-color: #f0f0ff;
             color: #289dcc;
             list-style: none;
@@ -178,14 +185,55 @@
             padding-bottom: 5px;
         }
 
-        a:hover{
+        a1:hover{
             background-color: #91cacc;
-            padding: 2px;
+            cursor: pointer;
         }
         
         .neuigkeit{
             margin-left: -300px;
             margin-right: 300px;
+        }
+
+        .news{
+            text-align: left;
+            margin-top: 10px;
+            
+        }
+
+
+        .scrolltitle{
+            margin-top: px;
+            margin-left: -630px;
+            position: absolute;
+            color: white;
+            text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .scrolltitle:hover{
+            color: #289dcc;
+        }
+
+        h3{
+            margin-top: -100px;
+            margin-left: 20px;
+            position: absolute;
+            padding: 30px 20px 45px 650px;
+            background: linear-gradient( 180deg, transparent, hsla(300,15%,25%,0.3));
+        }
+
+        #underschrift{
+            font-size: 12px;
+        }
+
+        #underschrift1{
+            font-size: 12px;
+            margin-left: -500px;
+        }
+
+        #underschrift2{
+            font-size: 12px;
+            margin-left: -365px;
         }
 
     </style>
@@ -194,6 +242,7 @@
     <div class="head">
             <h4 class="headnav">Gesamtschule Immanuel Kant | Falkensee </h4>
             <span class="wellcome">Willkommen, §Username</span>
+            <a href="english.html">sack</a>
         </div>
 
     <div class="newsticker2">
@@ -225,17 +274,33 @@
 
     <div class="maincontent">
         <p class="kantctn">
-            <a>Kant Kontact</a>
+            <a1>Kant Kontact</a1>
             <br>
-            <a>Kant Intern</a>
+            <a1>Kant Intern</a1>
             <br>
-            <a>Kant Digital</a>
+            <a1>Kant Digital</a1>
             <br>
-            <a>Kant Termine</a>
+            <a1>Kant Termine</a1>
             <br>
-            <a> Kant Profil</a>
+            <a1> Kant Profil</a1>
+            <br>
+            <a1> Kant Cocks</a1>
             <br>
         </p>
+
+        <div class="news">
+                <img  src="https://www.kantschule-falkensee.de/kant2013/wp-content/uploads/sweat-800x445.jpg" width="700" height="400">
+                <div class="lol">
+                    <h3>
+                    <a class="scrolltitle">It's sweltering! Kurzunterricht am Montag, dem 17. August</a>
+                    <br>
+                    <a class="scrolltitle" id="underschrift"><i class="fa fa-calendar-o"></i> 14.08.2020</a>
+                    <a class="scrolltitle" id="underschrift1"><i class="fa fa-user"></i> Frau Dr. Rutz</a>
+                    <a class="scrolltitle" id="underschrift2"><i class="fa fa-comment"></i> 12</a>
+                </h3>
+            </div>
+        </div>
+        
     </div>
 </body>
 </html>
